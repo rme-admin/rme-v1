@@ -10,6 +10,5 @@
     { "source": "/links", "destination": "/v1/links.html" },
     { "source": "/services", "destination": "/v1/services.html" },
     {"src": "/images/(.*)", "dest": "/images/$1"}
-  ],
   ]
 }
