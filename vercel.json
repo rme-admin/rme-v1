@@ -1,14 +1,15 @@
 {
-  "rewrites": [
-    { "source": "/v1/home", "destination": "/v1/index.html" },
-    { "source": "/v1/contact", "destination": "/v1/contact.html" },
-    { "source": "/v1/links", "destination": "/v1/links.html" },
-    { "source": "/v1/services", "destination": "/v1/services.html" },
-    { "source": "/", "destination": "/v1/index.html" },
-    { "source": "/home", "destination": "/v1/index.html" },
-    { "source": "/contact", "destination": "/v1/contact.html" },
-    { "source": "/links", "destination": "/v1/links.html" },
-    { "source": "/services", "destination": "/v1/services.html" },
-    {"src": "/images/(.*)", "dest": "/images/$1"}
+  "version": 2,
+  "routes": [
+    { "src": "^/v1/home$", "dest": "/v1/index.html" },
+    { "src": "^/v1/contact$", "dest": "/v1/contact.html" },
+    { "src": "^/v1/links$", "dest": "/v1/links.html" },
+    { "src": "^/v1/services$", "dest": "/v1/services.html" },
+    { "src": "^/$", "dest": "/v1/index.html" },
+    { "src": "^/home$", "dest": "/v1/index.html" },
+    { "src": "^/contact$", "dest": "/v1/contact.html" },
+    { "src": "^/links$", "dest": "/v1/links.html" },
+    { "src": "^/services$", "dest": "/v1/services.html" },
+    { "src": "^/images/(.*)$", "dest": "/images/$1" }
   ]
 }
