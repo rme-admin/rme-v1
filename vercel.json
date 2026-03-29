@@ -8,9 +8,8 @@
     { "source": "/home", "destination": "/v1/index.html" },
     { "source": "/contact", "destination": "/v1/contact.html" },
     { "source": "/links", "destination": "/v1/links.html" },
-    { "source": "/services", "destination": "/v1/services.html" }
+    { "source": "/services", "destination": "/v1/services.html" },
+    {"src": "/images/(.*)", "dest": "/images/$1"}
   ],
-  "static": [
-    { "src": "/images/(.*)", "dest": "/images/$1" }
   ]
 }
