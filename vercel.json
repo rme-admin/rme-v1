@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/v1/home", "destination": "/v1/index.html" },
+    { "source": "/v1/contact", "destination": "/v1/contact.html" },
+    { "source": "/v1/links", "destination": "/v1/links.html" },
+    { "source": "/v1/services", "destination": "/v1/services.html" },
+    { "source": "/", "destination": "/v1/index.html" },
+    { "source": "/home", "destination": "/v1/index.html" },
+    { "source": "/contact", "destination": "/v1/contact.html" },
+    { "source": "/links", "destination": "/v1/links.html" },
+    { "source": "/services", "destination": "/v1/services.html" }
+  ],
+  "static": [
+    { "src": "/images/(.*)", "dest": "/images/$1" }
+  ]
+}

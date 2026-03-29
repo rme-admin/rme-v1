@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RME: Opportunities & Community</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Inter font and a professional color palette -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Using the requested primary color: #0E2841
+                        'rme-primary': '#0E2841', 
+                        'rme-hover': '#0A1F33', // Darker shade for button hover
+                        'rme-light': '#E8F1F8', // Very light background for hover states
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    </style>
+</head>
+<body class="bg-gray-50 font-sans min-h-screen p-4 sm:p-8">
+
+    <div class="max-w-xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden ring-1 ring-gray-100">
+        <header class="bg-rme-primary text-white p-6 text-center">
+            <h1 class="text-3xl font-bold tracking-tight">Important Links</h1>
+            <p class="text-lg mt-1 font-light">Research Made Easy (RME)</p>
+        </header>
+
+        <!-- Section 1: Important Links -->
+        <section class="p-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">1. Important Links & Community</h2>
+            <div class="space-y-4">
+                
+                <!-- Main Survey Link (Primary Call to Action) -->
+                <a href="https://researchers.fillout.com/survey-phase-1" class="block w-full text-center py-3 px-4 bg-rme-primary text-white font-semibold rounded-lg shadow-md hover:bg-rme-hover transition duration-300 transform hover:-translate-y-0.5">
+                    <span class="font-extrabold text-lg">Take Main Survey (Digital)</span>
+                </a>
+
+                <!-- Join Community Button -->
+                <a href="https://chat.whatsapp.com/Ffrn10sVCSv0eui1tnvLPT" class="block w-full text-center py-3 px-4 bg-gray-100 text-rme-primary font-bold rounded-lg border border-gray-200 hover:bg-gray-200 transition duration-300">
+                    Join RME Community: Click Here
+                </a>
+
+                <!-- Channel Links -->
+                <div class="pt-2">
+                    <p class="text-sm font-medium text-gray-700 mb-2">Subject-Specific Opportunities Channels:</p>
+                    <div class="space-y-2">
+                        <!-- Use primary color for hover and icon -->
+                        <a href="https://whatsapp.com/channel/0029VbBYNa69MF8tDAWOrF1K" class="flex items-center justify-between p-3 bg-white border border-gray-200 rounded-lg hover:bg-rme-light transition duration-300">
+                            <span class="text-gray-700 font-medium">🔬 Opportunities in Physics Channel</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-rme-primary" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V14a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb6KJfR3mFY2lGjX7k34" class="flex items-center justify-between p-3 bg-white border border-gray-200 rounded-lg hover:bg-rme-light transition duration-300">
+                            <span class="text-gray-700 font-medium">🧪 Opportunities in Chemistry Channel</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-rme-primary" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V14a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb6ERcu7dmejNcY6SF0m" class="flex items-center justify-between p-3 bg-white border border-gray-200 rounded-lg hover:bg-rme-light transition duration-300">
+                            <span class="text-gray-700 font-medium">🧬 Opportunities in Biotechnology Channel</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-rme-primary" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V14a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" /></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Currently Hiring -->
+        <section class="p-6 bg-gray-50 border-t border-gray-200">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">2. Currently Hiring</h2>
+            <div class="bg-gray-100 border-l-4 border-rme-primary text-gray-800 p-4 rounded-lg">
+                <p class="font-bold text-lg">Fullstack Development Intern</p>
+                <ul class="list-disc list-inside text-sm mt-2 space-y-1">
+                    <li><strong class="font-semibold">Duration:</strong> 3 to 4 Months</li>
+                    <li><strong class="font-semibold">Mode:</strong> Work From Home (WFH)</li>
+                    <li class="font-semibold text-red-600"><strong class="font-semibold">Stipend:</strong> No Stipend</li>
+                </ul>
+                <div class="mt-4">
+                    <p class="font-medium text-base">To Apply:</p>
+                    <a href="mailto:reach@rme.org.in" class="text-rme-primary font-bold break-words hover:underline">
+                        Send your Resume to reach@rme.org.in
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Static Pages -->
+        <footer class="p-6 border-t border-gray-200">
+            <h3 class="text-lg font-semibold text-gray-800 mb-3">Learn More About RME</h3>
+            <div class="flex flex-col space-y-2">
+                <a href="http://rme.org.in/contact.html" target="_blank" class="text-gray-600 hover:text-rme-primary transition duration-300 flex items-center">
+                    <span class="mr-2">Visit Contact Us Page</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                </a>
+                <a href="http://rme.org.in/" target="_blank" class="text-gray-600 hover:text-rme-primary transition duration-300 flex items-center">
+                    <span class="mr-2">Visit RME Landing Page</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
